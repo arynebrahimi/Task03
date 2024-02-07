@@ -1,0 +1,193 @@
+.container{
+    font-family: "Vazir";
+    font-size: 14px;
+    
+    ul li {
+        display: inline-block; /* Display the list items horizontally */
+        /* position: relative; */
+        margin-right: 12px; /* Add some spacing between list items */
+    }
+    ul li a {
+        display: block;
+        padding: 20px 10px;
+        text-decoration: none;
+        text-align: left;  
+    }
+    
+    .icon{
+        img {
+            width: 140px;
+            height: 75px;
+        }
+    
+    }
+    .search-box{
+        padding: 5px;
+    /* border: 1px solid #ccc;
+    border-radius: 5px; */
+    
+    }
+  
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.category-menu {
+    /* list-style: none; */
+    margin: 0;
+    padding: 0;
+    margin-right: 5px; 
+}
+
+.category-menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    border: 1px solid #ddd;
+}
+
+.category-menu li:hover .dropdown {
+    display: block;
+}
+
+
+.search-box input[type="text"],
+.search-box select {
+    margin-right: 10px; 
+    width: 550px; 
+    height: 35px; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    
+}
+#all-categories {
+    margin-right: 10px; 
+    width: 150px; 
+    height: 35px; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.search-box button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 13px 62px;
+
+}
+
+.search-box button:hover {
+    background-color: #0056b3;
+}
+
+#Advanced {
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+    font-family: "Vazir";
+    font-size: 14px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    margin-left: 70px;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+}
+
+.third-footer {
+    list-style-type: none;
+    margin-left: 35px;
+    margin-top: 0px;  
+}
+
+.third-footer li {
+    margin-bottom: 10px;
+}
+
+.third-footer h3 {
+    margin-bottom: 10px;
+}
+.forth-footer {
+    list-style-type: none;
+    margin-left: 35px;
+    margin-top: 0px; 
+    list-style: none;
+    padding: 0; 
+}
+
+.forth-footer li {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.forth-footer h3 {
+    margin-bottom: 10px;
+}
+
+.small-icons img {
+        width: 20px;
+        height: 20px;
+        vertical-align: sub; 
+        margin-right: 2px;
+        
+}
+
+#eBay-element {
+margin-left: 70px;
+}
+
+#eBaysites-categories {
+    margin-left: 70px; 
+    width: 150px; 
+    height: 35px; 
+    padding: 8px; 
+    background-color: #cccccc71;
+    border: 1px solid #cccccc71; 
+    border-radius: 5px;
+    font-size: 13px;
+}
+.flag-us {
+    
+    background-image: url('/images/eBay\ icon3.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px; 
+}
+#endline {
+    font-family: "Vazir";
+    font-size: 11px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+
+
+
+
+
